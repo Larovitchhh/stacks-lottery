@@ -1,16 +1,11 @@
-export const metadata = {
-  title: 'Stacks Lottery',
-  description: 'Participate in the Stacks Builder Rewards',
-}
-
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: any
 }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0 }}>{children}</body>
+      <body style={{ margin: 0, padding: 0 }}>{children}</body>
     </html>
   )
 }
